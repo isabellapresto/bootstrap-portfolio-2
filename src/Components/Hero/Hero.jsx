@@ -1,6 +1,6 @@
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import videoBackground from '../../assets/img/hero-test.mp4';
+import videoBackground from '../../assets/img/komprimerad.mp4';
 
 export default function Hero() {
   return (
