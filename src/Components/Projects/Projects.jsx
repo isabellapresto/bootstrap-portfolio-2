@@ -8,7 +8,6 @@ import image5 from '../../assets/img/tech store.png';
 import image6 from '../../assets/img/todo.png';
 import image7 from '../../assets/img/Wordpress.png';
 import image8 from '../../assets/img/labb1.png';
-// import image9 from '../../assets/img/calc.png';
 
 const ProductCards = () => {
   return (

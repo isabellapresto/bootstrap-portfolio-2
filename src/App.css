@@ -3,7 +3,6 @@
 :root {
   --primary-color: #0a1118;
   --bs-body-font-family: 'Montserrat', sans-serif;
- 
 }
 
 .hero__background,
@@ -19,7 +18,7 @@
 }
 
 .hero__background {
-  background-size: cover; /* Lägg till detta för att täcka hela området utan förvrängning */
+  background-size: cover; 
 }
 
 .hero__overlay {
@@ -33,7 +32,6 @@
   z-index: 1;
 }
 
-/* ... (andra stilar som inte har ändrats) ... */
 .container-custom {
   width: 100%;
   padding: 0 1rem;
@@ -52,37 +50,6 @@
   .container-custom { width: 1520px; }
 }
 
-/*
-* Main Header
-*/
-.header {
-  z-index: 2;
-}
-
-/*
-* Flyout Navigation Bar
-*/
-#navbar {
-  position: fixed;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgb(255,247,231);
-  z-index: 4;
-}
-
-.dropdown-nav__closeNavBtn {
-  position: absolute;
-  top: 20px;
-  right: 16px;
-  background-color: rgbA(255,255,255,0.6);
-}
-
-.dropdown-nav__container {
-  height: 100vh;
-  padding: 0 1rem;
-}
 
 /* App.css */
 .black-background {
@@ -91,23 +58,10 @@
 }
 
 
-/* använda förger 
+/* använda färger 
 #FFEDE1;rosa
 #4D3D71; lila
-#FFF9F4; */
+#FFF9F4; vit*/
 /* #B17F7B header */
 
 
-/* Färger
-dark
-#13131B
-melocotontin
-#FFC4A2
-babyblu
-#B0D9EF
-bbblu
-#D9F7F7
-heartred
-#BC0120
-whiteblu
-#EAFCFE */

@@ -1,4 +1,3 @@
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 import videoBackground from '../../assets/img/komprimerad.mp4';
 
