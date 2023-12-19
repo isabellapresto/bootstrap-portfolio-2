@@ -29,12 +29,12 @@ const ProductCards = () => {
           <div className="card">
             <img src={image2} className="card-img-top" alt="Product 2" />
             <div className="card-overlay">
-              <h5 className="card-title">CRUD API Userlist</h5>
-              <p className="card-text">- Rest API endpoints created in quarkus backend <br />
-              - MySQL database created with tables; id, name, country <br />
-              - Php frontend page page with a list of users from the database, add user, edit and delete (CRUD)</p>
-              <a className='project-link' href="https://github.com/isabellapresto/quarkus-api/tree/docker-backend">Github repo - quarkus backend</a>
-              <a className='project-link'href="https://github.com/isabellapresto/php-frontend/tree/docker-frontend">Github repo - php frontend</a>
+              <h6 className="card-title">CRUD API Userlist</h6>
+              <p className="card-text">Rest API endpoints created in quarkus backend, 
+              MySQL database created with tables; id, name, country, 
+              Php frontend page page with a list of users from the database, add user, edit and delete (CRUD)</p>
+              <a className='project-link' href="https://github.com/isabellapresto/quarkus-api/tree/docker-backend">Github repo-backend</a>
+              <a className='project-link'href="https://github.com/isabellapresto/php-frontend/tree/docker-frontend">Github repo-frontend</a>
             </div>
           </div>
         </div>
