@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
+import "../NavbarMenu/Navbar.css"
 
 export default function MyNavbar() {
   const [scrolling, setScrolling] = useState(false);
@@ -28,6 +29,7 @@ export default function MyNavbar() {
       variant="dark"
       expand="lg"
       fixed="top"
+      className="justify-content-start" 
       style={{
         backgroundColor: scrolling || mobileMenuOpen ? '#B17F7B' : 'transparent',
         color: scrolling || mobileMenuOpen ? '#FFF9F4' : '#B17F7B',
