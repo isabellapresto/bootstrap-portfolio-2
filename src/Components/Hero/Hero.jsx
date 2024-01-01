@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section className="hero" style={{ position: 'relative', width: '100%', height: '100vh', overflow: 'hidden' }}>
       {/* Video overlay */}
-      <video autoPlay muted loop style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover', zIndex: 0 }}>
+      <video autoPlay muted loop playsInline style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover', zIndex: 0 }}>
         <source src={videoBackground} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
